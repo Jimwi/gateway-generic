@@ -1,0 +1,20 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/gateway_generic?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: 123qweasd
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+  main:
+    banner-mode: log
+
+logging:
+  config: classpath:logback-test.xml
+
+mybatis-plus:
+  mapper-locations: classpath*:mapper/*.xml
+  
+
