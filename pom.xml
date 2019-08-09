@@ -31,6 +31,7 @@
         <curator.version>4.0.1</curator.version>
         <zookeeper.version>3.4.14</zookeeper.version>
         <hessian.version>4.0.60</hessian.version>
+        <bouncycastle.version>1.62</bouncycastle.version>
     </properties>
 
     <dependencyManagement>
@@ -129,11 +130,15 @@
                 <artifactId>commons-lang3</artifactId>
                 <version>${commons-lang.version}</version>
             </dependency>
-
             <dependency>
                 <groupId>com.google.guava</groupId>
                 <artifactId>guava</artifactId>
                 <version>${guava.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.bouncycastle</groupId>
+                <artifactId>bcprov-jdk15on</artifactId>
+                <version>${bouncycastle.version}</version>
             </dependency>
 
             <dependency>
