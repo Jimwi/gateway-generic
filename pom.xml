@@ -27,7 +27,7 @@
         <fastjson.version>1.2.58</fastjson.version>
         <commons-lang.version>3.8.1</commons-lang.version>
         <commons-codec.version>1.12</commons-codec.version>
-        <guava.version>28.0-jre</guava.version>
+        <guava.version>29.0-jre</guava.version>
         <curator.version>4.0.1</curator.version>
         <zookeeper.version>3.4.14</zookeeper.version>
         <hessian.version>4.0.60</hessian.version>
