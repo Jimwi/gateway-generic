@@ -31,7 +31,7 @@
         <curator.version>4.0.1</curator.version>
         <zookeeper.version>3.4.14</zookeeper.version>
         <hessian.version>4.0.60</hessian.version>
-        <bouncycastle.version>1.62</bouncycastle.version>
+        <bouncycastle.version>1.67</bouncycastle.version>
     </properties>
 
     <dependencyManagement>
