@@ -24,7 +24,7 @@
         <dubbo-spring-boot-starter.version>2.7.1</dubbo-spring-boot-starter.version>
         <druid-spring-boot-starter.version>1.1.10</druid-spring-boot-starter.version>
         <mybatis-plus-boot-starter.version>3.1.0</mybatis-plus-boot-starter.version>
-        <fastjson.version>1.2.58</fastjson.version>
+        <fastjson.version>1.2.83</fastjson.version>
         <commons-lang.version>3.8.1</commons-lang.version>
         <commons-codec.version>1.12</commons-codec.version>
         <guava.version>28.0-jre</guava.version>
